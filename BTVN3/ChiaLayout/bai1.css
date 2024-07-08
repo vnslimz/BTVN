@@ -1,0 +1,31 @@
+html{
+    color: white;
+}
+body{
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: pink;
+    height: 20%;
+}
+nav{
+    background-color: blue;
+    height: 10%;
+}
+main{
+    display: flex;
+    height: 50%;
+}
+.mainside{
+    width: 30%;
+    background-color: orange;
+}
+.maincenter{
+    background-color: green;
+    flex-grow: 1;
+}
+footer{
+    background-color: gray;
+    height: 20%;
+}

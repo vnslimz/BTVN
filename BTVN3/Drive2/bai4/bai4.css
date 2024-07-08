@@ -1,0 +1,123 @@
+body, *{
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: lightgreen;
+    border-radius: 0px 0px 0px 300px ;
+    height: 301px;
+}
+#TieuDe{
+    font-size: 35px;
+    padding: 100px 350px;
+}
+#Link{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: 300px
+}
+#Link a{
+    margin: 10px 0px;
+}
+#Link img{
+    height: 50px;
+}
+#In4{
+    margin-top: 20px;
+    width: 1536px;
+    background-color: cadetblue;
+    color: orange;
+    font-size: 25px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+main{
+    margin: 20px 77px 20px;
+    display: flex;
+    position: relative;
+}
+#Education{
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left: 0px;
+    margin-right: 33px;
+}
+#Blog{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 33px;
+    justify-content: space-between;
+}
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    height: 60px;
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 30px;
+}
+.edu{
+    margin-top: 15px;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    width: 247px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.vidtitle{
+    background-color: cyan;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+.content img{
+    width: 247px;
+}
+.blog{
+    height: 72px;
+    border: 1px solid orange;
+    display: flex;
+}
+.date{
+    width: 150px;
+    line-height: 72px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.result{
+    width: 330px;
+    line-height: 72px;
+    text-align: center;
+}
+.result img{
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+footer{
+    height: 100px;
+    background-color: darkgrey;
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}

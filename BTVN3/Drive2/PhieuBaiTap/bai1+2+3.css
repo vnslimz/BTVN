@@ -1,0 +1,12 @@
+p{
+    padding-top: 30px;
+    background-color: #b3ffff;
+    border: 2px dotted red;
+}
+div{
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    background-color: cyan;
+    border: 25px solid blue;
+}

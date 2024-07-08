@@ -1,0 +1,437 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url("./kitterimg/hero-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+}
+body, *{
+    transition: all 0.3s;
+}
+
+
+
+
+header {
+    color: white;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    height: 60px;   
+}
+header.sticky {
+    background-color: orange;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; 
+}
+.webname{
+    margin: auto 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Papyrus, fantasy;
+}
+.menu{
+    display: flex;
+    margin: auto 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.menuitem{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.fnc{
+    margin: auto 0px auto 600px;
+}
+.fnc i{
+    margin: 0 5px;
+    cursor: pointer;
+}
+.fnc i:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.MainNoti{
+    width: 60%;
+    color: white;
+    text-align: center;
+    margin-top: 120px;  
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: bold;
+    font-style: italic;
+}
+.Sale{
+    font-weight: lighter;
+    font-style: normal;
+    margin: 30px;
+    font-size: 25px;
+}  
+.shopnow{
+    background-color: black;
+    width: fit-content;
+    margin: 0px auto;
+    font-style: normal;
+    padding: 10px 20px;
+    font-weight: lighter;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.shopnow:hover{
+    background-color: chocolate;
+}
+
+
+
+
+.Categories{
+    margin-top: 450px;
+    text-align: center;
+}
+.catetitle{
+    font-size: 40px;
+    font-weight: 600;
+}
+.categorylist{
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    width: 90vw;
+}
+.cateimg{
+    width: calc(18vw - 16px);
+    overflow: hidden;
+}
+.category img{
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+.category img:hover{
+    transform: scale(1.1);
+}
+.category div{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+    z-index: 1
+}
+.category :nth-child(2){
+    cursor: pointer;
+}
+.category :nth-child(2):hover{
+    color: coral;
+}
+
+
+.offer{
+    width: 90vw;
+    margin: 50px auto;   
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 20px; 
+}
+.offeritem{
+    text-align: left;
+    border-radius: 30px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offertitle{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.offerin4{
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+.readmore{
+    position: relative;
+    top: 100px;
+    background-color: coral;
+    width: fit-content;
+    left: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px 20px 15px;
+}
+.readmore:hover{
+    background-color: black;
+}
+#offer1{
+    background-image: url("./kitterimg/offer-banner-1.jpg");
+}
+#offer2{
+    background-image: url("./kitterimg/offer-banner-2.jpg");
+}
+#offer3{
+    background-image: url("./kitterimg/offer-banner-3.jpg");
+}
+
+
+
+
+.product{
+    margin-top: 80px;
+    text-align: center;
+}
+.prodtitle{
+    font-size: 40px;
+    font-weight: 600;
+}
+.prodlist{
+    margin: 50px auto;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, 500px);
+    gap: 20px;
+}
+.proditem{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.prodimg{
+    height: 350px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.prodimg img{
+    width: 90%;
+    opacity: 1;
+}
+.prodimg img:nth-child(1){
+    position: relative;
+    top: 20px;
+}
+.prodimg img:nth-child(2){
+    opacity: 0;
+    position: relative;
+    top: -280px;
+}
+.proditem:hover .prodimg img:nth-child(2){
+    opacity: 1;
+}
+.proditem:hover .prodimg img:nth-child(1){
+    opacity: 0;
+}
+.prodname{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px auto 0px;
+    cursor: pointer;
+    width: fit-content;
+}
+.prodname:hover{
+    color: coral;
+}
+.prodprice{
+    margin: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: coral;
+}
+.prodrate{
+    color: tomato;
+    font-size: 12px;
+}
+
+
+
+
+.service{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.servicetext{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px;
+}
+.servicemenu{
+    display: flex;
+    justify-content: space-between;
+}
+.serviceitem{
+    text-align: center;
+    width: 100%;
+}
+.servicename{
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.servicedetail{
+    color: #999999;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+.cta{
+    background-image: url("./kitterimg/cta-bg.jpg");
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cta-banner{
+    width: 50%;
+    position: absolute;
+    top: -35px;
+    left: 100px;
+}
+.cta-icon{
+    position: absolute;
+    top: 150px;
+    left: 850px;
+}
+.ctaname{
+    position: relative;
+    top: 250px;
+    left: 850px;
+    font-size: 40px;
+    font-weight: 600;
+    width: 40%;
+}
+.ctadetail{
+    position: relative;
+    left: 850px;
+    top: 260px;
+    width: 40%;
+}
+.Findout{
+    position: relative;
+    left: 850px;
+    top: 300px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+.Findout:hover{
+    background-color: coral;
+}
+
+
+
+
+.brand{
+    text-align: center;
+}
+.brand div:nth-child(1){
+    font-size: 40px;
+    font-weight: 600;
+}
+.brandlist{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+.brandlist img{
+    padding: 0px 50px;
+    border-right: 1px solid #e6e6e6;
+}
+.brandlist img:nth-child(5){
+    border: none;
+}
+
+
+
+
+footer{
+    margin-top: 50px;
+    background-image: url("./kitterimg/footer-bg.jpg");
+    height: 550px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;  
+    position: relative;
+    background-color: #292a2e;
+}
+.footer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    gap: 50px;
+    color: white;
+    height: fit-content;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    border-bottom: 1px solid #54565f;
+}
+.location{
+    margin: 30px 0px;
+    font-weight: 600;
+}
+.telephone{
+    font-weight: 600;
+}
+.socialmedia{
+    margin: 30px 0px;
+    color: black;
+}
+.socialmedia i{
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.socialmedia i:hover{
+    color: white;
+    background-color: coral;
+}
+.CIS{
+    font-size: 20px;
+    font-weight: bold;
+}
+.CIS li{
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px -40px;
+    color: #999999;
+    cursor: pointer;
+}
+.CIS li:hover{
+    color: coral;
+}
+.Payment{
+    margin: 0 auto;
+    width: 88%;
+    position: relative;
+    top: 480px;
+    z-index: 2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}

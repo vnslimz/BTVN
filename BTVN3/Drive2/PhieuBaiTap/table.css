@@ -1,0 +1,18 @@
+header{
+    background-color: orange;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    font-weight: bold;
+}
+table{
+    margin: 20px 0px;
+}
+th{
+    color: white;
+    background-color: #ff6600;
+}
+table, th, td{
+    border: 2px solid #ffc299;
+    border-collapse: collapse;
+    padding: 2px;
+}

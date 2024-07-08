@@ -1,0 +1,52 @@
+body{
+    margin: 20px ;
+}
+
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 15% 65% 20%;
+    height: 90vh;
+    font-size: 30px;
+}
+
+header{
+    background: linear-gradient(to bottom right, #6666ff 50%, #9999ff 100%);
+    border: 5px solid black;
+    align-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 27% 35% 35%;
+    gap: 20px;
+}
+main div{
+    border: 5px solid black;
+}
+
+.sidebar{
+    background: linear-gradient(to top, #006699 0%, #33cccc 100%);
+    grid-row: 1/ span 2;
+    align-content: center;
+}
+.content1{
+    grid-column: 2/ span 2;
+    background: linear-gradient(to bottom right, #0033cc 0%, #33ccff 100%);
+    align-content: center;
+}
+.content{
+    background: linear-gradient(to bottom right, #0033cc 0%, #33ccff 100%);
+    align-content: center;
+}
+
+footer{ 
+    background: linear-gradient(to bottom right, #6666ff 50%, #9999ff 100%);
+    border: 5px solid black;
+    align-content: center;
+}
+
+

@@ -1,0 +1,84 @@
+body, *{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    width: 100vw;
+    position: fixed;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    background-color: antiquewhite;
+}
+.menuitem{
+    font-size: 30px;
+    font-weight: bold;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+}
+.menuitem:hover{
+    color: blue;
+}
+
+main{
+    position: relative;
+    top: 60px;
+}
+.banner{
+    width: 100vw;
+    position: relative;
+}
+
+.food{
+    margin-top: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 350px 350px 350px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.fooditem{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 0px 10px gray,0px 10px 10px gray;
+}
+.fooditem img{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 40%
+}
+.fooditem .ten{
+    font-size: 25px;
+    font-weight: 600;
+}
+.fooditem .gia{
+    font-size: 20px;
+    color: red;
+}
+.fooditem .order{
+    margin-top: auto;
+    background-color: cyan;
+    width: 100%;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.fooditem .order:hover{
+    background-color: #ffb3b3;
+}
+
+.tenquan{
+    font-size: 30px;
+    font-weight: bold;
+}
